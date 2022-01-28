@@ -44,11 +44,11 @@ namespace WebApplicationTest.Controllers
             
             return View();
         }
-        [HttpGet]
-        public IActionResult First()
-        {
-            //string n = String.Format("{0}", Request.Form["rect0h"]);
-            return View();
-        }
+        //[HttpGet]
+        //public IActionResult First()
+        //{
+        //    //string n = String.Format("{0}", Request.Form["rect0h"]);
+        //    return View();
+        //}
     }
 }
